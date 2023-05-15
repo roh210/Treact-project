@@ -60,17 +60,63 @@
                 >
               </li>
             </ul>
-            <button class="btn__menu" onclick="openMenu()"><i class="fas fa-bars"></i></button>
+            <button class="btn__menu" onclick="openMenu()">
+              <i class="fas fa-bars"></i>
+            </button>
             <div class="menu__backdrop">
-              <button class="btn__menu btn__menu--close" onclick="closeMenu()"><i class="fas fa-times"></i></button>
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+              </button>
               <ul class="menu__links">
-                <li class="menu__list"><a class="nav__link--anchor" href="#" onclick="closeMenu()">Home</a></li>
-                <li class="menu__list"><a class="nav__link--anchor" href="#features" onclick="closeMenu()">About</a></li>
-                <li class="menu__list"><a class="nav__link--anchor" href="#pricing" onclick="closeMenu()">Pricing</a></li>
-                <li class="menu__list"><a class="nav__link--anchor" href="#steps" onclick="closeMenu()">Download</a></li>
-                <li class="menu__list"><a class="nav__link--anchor" href="mailto:email@email.com" onclick="closeMenu()">Contact us</a></li>
-                <li class="menu__list"><a class="nav__link--anchor" href="" onclick="closeMenu()">Login</a></li>
-                <li class="menu__list"><a href="" onclick="closeMenu()"><button class="btn--purple btn--not-allowed">Sign Up</button></a></li>
+                <li class="menu__list">
+                  <a class="nav__link--anchor" href="#" onclick="closeMenu()"
+                    >Home</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a
+                    class="nav__link--anchor"
+                    href="#features"
+                    onclick="closeMenu()"
+                    >About</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a
+                    class="nav__link--anchor"
+                    href="#pricing"
+                    onclick="closeMenu()"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a
+                    class="nav__link--anchor"
+                    href="#steps"
+                    onclick="closeMenu()"
+                    >Download</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a
+                    class="nav__link--anchor"
+                    href="mailto:email@email.com"
+                    onclick="closeMenu()"
+                    >Contact us</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a class="nav__link--anchor" href="" onclick="closeMenu()"
+                    >Login</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a href="" onclick="closeMenu()"
+                    ><button class="btn--purple btn--not-allowed">
+                      Sign Up
+                    </button></a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -89,8 +135,12 @@
                 modular components with a variety of pages and components
               </p>
               <div class="header__description__input">
-                <form >
-                  <input type="email" class="input--email" placeholder="Your E-mail Address" />
+                <form>
+                  <input
+                    type="email"
+                    class="input--email"
+                    placeholder="Your E-mail Address"
+                  />
                   <input
                     type="submit"
                     class="btn--header btn--not-allowed"
@@ -255,7 +305,9 @@
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <a href="" class="description__para__btn">
-                  <button class="btn btn--purple btn--not-allowed">Learn More</button>
+                  <button class="btn btn--purple btn--not-allowed">
+                    Learn More
+                  </button>
                 </a>
               </div>
               <figure class="quality-work__fig">
@@ -339,151 +391,361 @@
                 <span class="text--purple">Plans.</span>
               </h1>
               <p class="pricing__para">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-           <div class="pricing__plans__wrapper">
-            <div class="pricing__plan pricing__plan__green-white">
-              <div class="pricing__plan__row pricing__plan__green-white__row"></div>
-              <div class="pricing__plan__heading">
-                <h3 class="pricing__plan__heading__title">personal</h3>
-                <span class="pricing__plan__heading__price">£17.99</span>
-                <p class="pricing__plan__heading__para">monthly</p>
+            <div class="pricing__plans__wrapper">
+              <div class="pricing__plan pricing__plan__green-white">
+                <div
+                  class="pricing__plan__row pricing__plan__green-white__row"
+                ></div>
+                <div class="pricing__plan__heading">
+                  <h3 class="pricing__plan__heading__title">personal</h3>
+                  <span class="pricing__plan__heading__price">£17.99</span>
+                  <p class="pricing__plan__heading__para">monthly</p>
+                </div>
+                <hr />
+                <div class="pricing__plan__description">
+                  <h4 class="pricing__plan__description__heading">
+                    For Individuals
+                  </h4>
+                  <ul
+                    class="pricing__plan__description__items pricing__plan__description__items__grey"
+                  >
+                    <li class="pricing__plan__description__item">
+                      30 Templates
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      7 Landing Pages
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      12 Internal Pages
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      Basic Assistance
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="pricing__plan__btn">
+                  <a href="" class="pricing__plan__btn__link"
+                    ><button class="btn--pricing btn--green">buy now</button></a
+                  >
+                </div>
               </div>
-              <hr>
-              <div class="pricing__plan__description">
-                <h4 class="pricing__plan__description__heading">For Individuals</h4>
-                <ul class="pricing__plan__description__items pricing__plan__description__items__grey ">
-                  <li class="pricing__plan__description__item ">30 Templates</li>
-                  <li class="pricing__plan__description__item">7 Landing Pages</li>
-                  <li class="pricing__plan__description__item">12 Internal Pages</li>
-                  <li class="pricing__plan__description__item">Basic Assistance</li>
-                </ul>
+              <div class="pricing__plan pricing__plan__blue">
+                <div class="pricing__plan__row pricing__plan__blue__row"></div>
+                <div class="pricing__plan__heading">
+                  <h3 class="pricing__plan__heading__title">business</h3>
+                  <span class="pricing__plan__heading__price">£37.99</span>
+                  <p
+                    class="pricing__plan__heading__para pricing__plan__heading__para__white"
+                  >
+                    monthly
+                  </p>
+                </div>
+                <hr />
+                <div class="pricing__plan__description">
+                  <h4 class="pricing__plan__description__heading">
+                    For Small Businesses
+                  </h4>
+                  <ul class="pricing__plan__description__items">
+                    <li class="pricing__plan__description__item">
+                      60 Templates
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      15 Landing Pages
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      22 Internal Pages
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      Priority Assistance
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="pricing__plan__btn">
+                  <a href="" class="pricing__plan__btn__link"
+                    ><button class="btn--pricing btn--white">buy now</button></a
+                  >
+                </div>
               </div>
-            <hr>
-            <div class="pricing__plan__btn">
-              <a href="" class="pricing__plan__btn__link"><button class="btn--pricing btn--green">buy now</button></a>
-            </div>
-            </div>
-            <div class="pricing__plan pricing__plan__blue">
-              <div class=" pricing__plan__row pricing__plan__blue__row"></div>
-              <div class="pricing__plan__heading">
-                <h3 class="pricing__plan__heading__title">business</h3>
-                <span class="pricing__plan__heading__price">£37.99</span>
-                <p class="pricing__plan__heading__para pricing__plan__heading__para__white ">monthly</p>
+              <div class="pricing__plan pricing__plan__orang-white">
+                <div
+                  class="pricing__plan__row pricing__plan__orange-white__row"
+                ></div>
+                <div class="pricing__plan__heading">
+                  <h3 class="pricing__plan__heading__title">enterprise</h3>
+                  <span class="pricing__plan__heading__price">£57.99</span>
+                  <p class="pricing__plan__heading__para">monthly</p>
+                </div>
+                <hr />
+                <div class="pricing__plan__description">
+                  <h4 class="pricing__plan__description__heading">
+                    For Large Companies
+                  </h4>
+                  <ul
+                    class="pricing__plan__description__items pricing__plan__description__items__grey"
+                  >
+                    <li class="pricing__plan__description__item">
+                      90 Templates
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      27 Landing Pages
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      37 internal Pages
+                    </li>
+                    <li class="pricing__plan__description__item">
+                      Personal Assistance
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="pricing__plan__btn">
+                  <a href="" class="pricing__plan__btn__link"
+                    ><button class="btn--pricing btn--orange">
+                      buy now
+                    </button></a
+                  >
+                </div>
               </div>
-              <hr>
-              <div class="pricing__plan__description">
-                <h4 class="pricing__plan__description__heading">For Small Businesses</h4>
-                <ul class="pricing__plan__description__items">
-                  <li class="pricing__plan__description__item">60 Templates</li>
-                  <li class="pricing__plan__description__item">15 Landing Pages</li>
-                  <li class="pricing__plan__description__item">22 Internal Pages</li>
-                  <li class="pricing__plan__description__item">Priority Assistance</li>
-                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials">
+        <div class="row">
+          <div class="container">
+            <div class="testimonial__container">
+              <div class="testimonial__pic__wrapper">
+                <figure>
+                  <img class="testimonial__pic" src="./assets/testimonial-undraw-pic.svg" alt="" />
+                </figure>
               </div>
-            <hr>
-            <div class="pricing__plan__btn">
-              <a href="" class="pricing__plan__btn__link"><button class="btn--pricing btn--white">buy now</button></a>
-            </div>
-            </div>
-            <div class="pricing__plan pricing__plan__orang-white">
-              <div class=" pricing__plan__row pricing__plan__orange-white__row"></div>
-              <div class="pricing__plan__heading">
-                <h3 class="pricing__plan__heading__title">enterprise</h3>
-                <span class="pricing__plan__heading__price">£57.99</span>
-                <p class="pricing__plan__heading__para">monthly</p>
+              <div class="testimonial__wrapper">
+                <div class="testimonial__heading">
+                  <span class="text--purple sub-title">testimonials</span>
+                  <h1 class="title pricing__title">
+                    Our Clients
+                    <span class="text--purple"> Love Us.</span>
+                  </h1>
+                  <p class="testimonial__para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div class="testimonial__slideshow__container">
+                  <div class="testimonial__slideshow__wrapper">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h3 class="testimonial__sub-heading">
+                      Love the Developer Experience and Design Principles!
+                    </h3>
+                    <p class="testimonial__para">
+                      Sinor Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia. Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <div class="testimonial__pic__wrapper">
+                      <div class="testimonial-pic">
+                        <figure>
+                          <img class="testimonial__person" src="./assets/testimonial-person1.avif" alt="" />
+                        </figure>
+                        <div class="testimonial_person-occupation">
+                          <p class="bold--text">Adam Cuppy</p>
+                        <p class="small--text">Founder, EventsNYC</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial__slideshow__wrapper">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h3 class="testimonial__sub-heading">
+                      Amazing User Experience
+                    </h3>
+                    <p class="testimonial__para">
+                      Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. 
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                      qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                    </p>
+                    <div class="testimonial__pic__wrapper">
+                      <div class="testimonial-pic">
+                        <figure>
+                          <img class="testimonial__person" src="./assets/testimonial-person2.avif" alt="" />
+                        </figure>
+                        </div>
+                        <div class="testimonial_person-occupation">
+                          <p class="bold--text">Charlotte Hale</p>
+                        <p class="small--text">Director, Delos Inc.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial__buttons">
+                  <div class="arrow">
+                    <i class="fa-solid fa-arrow-left" onclick="plusSlides(-1)"></i>
+                  </div>
+                  <div class="vertical-line"></div>
+                  <div class="arrow">
+                    <i class="fa-solid fa-arrow-right" onclick="plusSlides(1)"></i>
+                  </div>
+                </div>
               </div>
-              <hr>
-              <div class="pricing__plan__description">
-                <h4 class="pricing__plan__description__heading">For Large Companies</h4>
-                <ul class="pricing__plan__description__items pricing__plan__description__items__grey">
-                  <li class="pricing__plan__description__item">90 Templates</li>
-                  <li class="pricing__plan__description__item">27 Landing Pages</li>
-                  <li class="pricing__plan__description__item">37 internal Pages</li>
-                  <li class="pricing__plan__description__item">Personal Assistance</li>
-                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="before-footer">
+        <div class="container">
+          <div class="row">
+            <div class="blue--wrapper">
+              <div class="title--wrapper">
+                <h3 class="wrapper--title">Developers all over the world are <br>happily using Treact.</h3>
               </div>
-            <hr>
-            <div class="pricing__plan__btn">
-              <a href="" class="pricing__plan__btn__link"><button class="btn--pricing btn--orange">buy now</button></a>
+              <div class="wrapper__buttons">
+                <button class="btn--wrapper__buttons btn--orange">
+                  Get started
+                </button>
+                <button class="btn--wrapper__buttons btn--clear">
+                  Contact us
+                </button>
+              </div>
             </div>
-            </div>
-
-           </div>
           </div>
         </div>
       </section>
     </main>
     <footer>
       <div class="container">
-          <div class="links__wrapper">
-              <div class="link">
-                <ul class="link__items">
-                  <p class="link__heading">main</p>
-                  <li class="link__item"><a class="link__anchor"href="">Blog</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">FAQs</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Support</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">About Us</a></li>
-                </ul>
-              </div>
-              <div class="link">
-                <ul class="link__items">
-                  <p class="link__heading">product</p>
-                  <li class="link__item"><a class="link__anchor"href="">Log In</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Personal</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Business</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Team</a></li>
-                </ul>
-              </div>
-              <div class="link">
-                <ul class="link__items">
-                  <p class="link__heading">press</p>
-                  <li class="link__item"><a class="link__anchor"href="">Logos</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Events</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Stories</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Office</a></li>
-                </ul>
-              </div>
-              <div class="link">
-                <ul class="link__items">
-                  <p class="link__heading">Team</p>
-                  <li class="link__item"><a class="link__anchor"href="">Cover</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Founders</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Culture</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Overboarding</a></li>
-                </ul>
-              </div>
-              <div class="link">
-                <ul class="link__items">
-                  <p class="link__heading">legal</p>
-                  <li class="link__item"><a class="link__anchor"href="">GDPR</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Privacy Police</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Terms of Service</a></li>
-                  <li class="link__item"><a class="link__anchor" href="">Disclaimer</a></li>
-                </ul>
-              </div>
-            </div>
-            <hr class="footer__hr">
-            <div class="footer__info">
-              <div class="footer__log">
-                <a href="#" class="footer__anchor">
-                  <figure class="footer__logo__img">
-                      <img src="./assets/footer-logo.svg" alt="" class="footer__logo">
-                      <p class="footer__logo__img__word">Treact Inc.</p>
-                      <span class="footer__logo--popper">Top<i class="fa-solid fa-arrow-up fa"></i></span>
-                  </figure>
-                </a>
-              </div>
-            <div class="footer__c">
-              <p class="footer__copyright">&copy; 2022 Treact Inc. All Rights Reserved</p>
-            </div>
-            <div class="footer__info__icons">
-              <a class="footer__link__icon" href=""><i class="fa-brands fa-facebook"></i></a>
-              <a class="footer__link__icon" href=""><i class="fa-brands fa-twitter"></i></a>
-              <a class="footer__link__icon" href=""><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            </div>
+        <div class="links__wrapper">
+          <div class="link">
+            <ul class="link__items">
+              <p class="link__heading">main</p>
+              <li class="link__item">
+                <a class="link__anchor" href="">Blog</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">FAQs</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Support</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <ul class="link__items">
+              <p class="link__heading">product</p>
+              <li class="link__item">
+                <a class="link__anchor" href="">Log In</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Personal</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Business</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Team</a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <ul class="link__items">
+              <p class="link__heading">press</p>
+              <li class="link__item">
+                <a class="link__anchor" href="">Logos</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Events</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Stories</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Office</a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <ul class="link__items">
+              <p class="link__heading">Team</p>
+              <li class="link__item">
+                <a class="link__anchor" href="">Cover</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Founders</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Culture</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Overboarding</a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <ul class="link__items">
+              <p class="link__heading">legal</p>
+              <li class="link__item">
+                <a class="link__anchor" href="">GDPR</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Privacy Police</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Terms of Service</a>
+              </li>
+              <li class="link__item">
+                <a class="link__anchor" href="">Disclaimer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer__hr" />
+        <div class="footer__info">
+          <div class="footer__log">
+            <a href="#" class="footer__anchor">
+              <figure class="footer__logo__img">
+                <img
+                  src="./assets/footer-logo.svg"
+                  alt=""
+                  class="footer__logo"
+                />
+                <p class="footer__logo__img__word">Treact Inc.</p>
+                <span class="footer__logo--popper"
+                  >Top<i class="fa-solid fa-arrow-up fa"></i
+                ></span>
+              </figure>
+            </a>
+          </div>
+          <div class="footer__c">
+            <p class="footer__copyright">
+              &copy; 2022 Treact Inc. All Rights Reserved
+            </p>
+          </div>
+          <div class="footer__info__icons">
+            <a class="footer__link__icon" href=""
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="footer__link__icon" href=""
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a class="footer__link__icon" href=""
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
